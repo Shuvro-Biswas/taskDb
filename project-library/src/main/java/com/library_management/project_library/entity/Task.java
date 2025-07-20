@@ -12,7 +12,8 @@ public class Task {
     private String description;
     private boolean completed;
 
-    public Task() {}
+    public Task() {} //Constructor
+    
     public Task(String title, String description){
         this.title = title;
         this.description=description;
